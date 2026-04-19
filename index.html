@@ -157,7 +157,7 @@
         }
 
         const subject = encodeURIComponent(`Resume request from ${visitorEmail}`);
-        const body = encodeURIComponent(`Hi Winston,%0A%0AI would like to receive your resume at this email address: ${visitorEmail}.%0A%0AThank you!`);
+        const body = encodeURIComponent(`Hi Winston, I would like to receive your resume at this email address: ${visitorEmail}. Thank you!`);
         const mailto = `mailto:chepson4@gmail.com?subject=${subject}&body=${body}`;
 
         formStatus.textContent = 'Your request is ready. Please send the email to receive the resume.';
